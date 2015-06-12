@@ -1,9 +1,9 @@
 <%= form_for @event do |f| %>
 <%= f.label('Band: ') %>
-<%= f.select(:band_id,options_for_select(@bandname),{},) %>
+<%= f.select(:band_id, Band.all.collect {|p| [ p.name, p.id ] }, {prompt: 'Select Band'}) %>
 <br>
 <%= f.label('Venue') %>
-<%= f.text_field(:venue_id) %>
+<%= f.select(:venue_id, Venue.all.collect {|p| [ p.name, p.id ] }, {prompt: 'Select Venue'}) %>
 <br>
 <%= f.label('Date and Time') %>
 <%= f.datetime_select :event_date, start_year: Time.now.year, end_year: 2017 %>
