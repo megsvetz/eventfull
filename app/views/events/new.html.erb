@@ -1,0 +1,12 @@
+<%= form_for @event do |f| %>
+<%= f.label('Band') %>
+<%= f.text_field(:band_id) %>
+<br>
+<%= f.label('Venue') %>
+<%= f.text_field(:venue_id) %>
+<br>
+<%= f.label('Date and Time') %>
+<%= f.datetime_select :event_date, start_year: Time.now.year, end_year: 2017 %>
+<br>
+<%= f.submit('Add Event') %>
+<% end %>
