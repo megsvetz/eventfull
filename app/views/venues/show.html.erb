@@ -1,0 +1,9 @@
+<hr>
+<h1><%= link_to('Venue: <%= @venue.name %>', url:)%></h1>
+<h2> Location: <%= @venue.location %> </h2>
+<br>
+<% if current_user_signed_in? %>
+  <%= link_to 'Edit Book', edit_admin_book_path(@book) %>
+  <%= link_to 'Delete Book', admin_book_path(@book), method: :delete %>
+<% end %>
+<hr>

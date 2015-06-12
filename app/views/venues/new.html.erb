@@ -1,0 +1,14 @@
+<h1 class="header">Add New Venue</h1>
+
+<%= form_for(@venue, url: venue_path) do |f| %>
+
+  <%= f.text_field :name, class: "form-control", :placeholder => "Enter Venue Name", :style => "width:50%;" %>
+  <br>
+
+  <%= f.text_field :location, class: "form-control", :placeholder => "Enter Venue Address",:style => "width:50%;" %>
+  <br>
+  
+  <%= f.submit("Save New Venue") %>
+  <br>
+
+<% end %>
