@@ -14,10 +14,10 @@
       
       <% if user_signed_in? %>
         <td>
-          <a href="<%= edit_admin_book_path(b) %>" class="btn btn-info">
+          <a href="<%= edit_venue_path(v) %>" class="btn btn-info">
             <span class = "glyphicon glyphicon-pencil"></span>
           </a>
-          <a href="<%= admin_book_path(b) %>" class="btn btn-danger" data-method="delete">
+          <a href="<%= edit_venue_path(v) %>" class="btn btn-danger" data-method="delete">
             <span class="glyphicon glyphicon-trash"></span>
           </a>
         </td>

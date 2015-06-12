@@ -1,19 +1,18 @@
 <% if user_signed_in? %>
   
-  <h1 class="header">Edit Book</h1>
+  <h1 class="header">Edit Venue</h1>
 
-  <%= form_for(@book, url: admin_book_path) do |f| %>
+  <%= form_for(@venue, url: venue_path) do |f| %>
 
-    <%= f.text_field :title, class: "form-control", :placeholder => "Enter Book Title", :style => "width:50%;" %>
+    <%= f.text_field :name, class: "form-control", :placeholder => "Enter Venue Name", :style => "width:50%;" %>
     <br>
-
-    <%= f.text_field :author, class: "form-control", :placeholder => "Enter Book Author",:style => "width:50%;" %>
+    <%= f.text_field :address, class: "form-control", :placeholder => "Enter Venue Address",:style => "width:50%;" %>
     <br>
-    <%= f.text_field :price, class: "form-control", :placeholder => "Enter Book Price",:style => "width:50%;" %>
+    <%= f.text_field :phone_number, class: "form-control", :placeholder => "Enter Venue Phone Number",:style => "width:50%;" %>
     <br>
-    <%= f.text_area :summary, class: "form-control", :placeholder => "Enter Book Summary",:style => "width:50%;" %>
+    <%= f.text_field :website, class: "form-control", :placeholder => "Enter Venue Website",:style => "width:50%;" %>
     <br>
-    <%= f.submit("Save Edited Book") %>
+    <%= f.submit("Save Venue") %>
     <br>
   <% end %>
 
