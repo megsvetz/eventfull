@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  
+
+  root 'pages#index'
+
   resources :venues
   resources :events
   resources :bands
