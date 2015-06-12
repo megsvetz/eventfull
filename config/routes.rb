@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   
-  root  'venues#index'
-
   resources :venues
   resources :events
   resources :bands

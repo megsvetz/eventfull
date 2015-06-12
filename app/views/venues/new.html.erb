@@ -1,14 +1,17 @@
-<h1 class="header">Add New Venue</h1>
+<% if user_signed_in? %>
 
-<%= form_for @venue do |f| %>
+  <h1 class="header">Add New Venue</h1>
 
-  <%= f.text_field :name, class: "form-control", :placeholder => "Enter Venue Name", :style => "width:50%;" %>
-  <br>
+  <%= form_for @venue do |f| %>
+    <%= f.text_field :name, class: "form-control", :placeholder => "Enter Venue Name", :style => "width:50%;" %>
+    <br>
+    <%= f.text_field :location, class: "form-control", :placeholder => "Enter Venue Address",:style => "width:50%;" %>
+    <br>    
+    <%= f.submit("Save New Venue") %>
+    <br>
+  <% end %>
 
-  <%= f.text_field :location, class: "form-control", :placeholder => "Enter Venue Address",:style => "width:50%;" %>
-  <br>
-  
-  <%= f.submit("Save New Venue") %>
-  <br>
+<% else %>
+<h3 style="text-align:center">Sorry the page you are looking for does not exist.</h3>
 
 <% end %>
