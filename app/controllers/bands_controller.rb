@@ -31,7 +31,7 @@ class BandsController < ApplicationController
   end
   private
   def band_params
-    params.require(:band).permit(:name, :website, :bio, :event_id)
+    params.require(:band).permit(:name, :website, :bio)
   end
   def set_band
     @band = @band.find(params[:id])
