@@ -31,6 +31,7 @@ class VenuesController < ApplicationController
   end
 
   def show
+    @events = @venue.events
   end
 
   def destroy

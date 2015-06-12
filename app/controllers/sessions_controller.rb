@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     @user = User.where(username: params[:username]).first
     if @user.present? && @user.authenticate(params[:password])
       session[:user_id] = @user.id
-      redirect_to root_path, notice: 'Welcome Back!'
+      redirect_to root_path, notice: 'Welcome!'
     else
       flash[:alert] = "Invalid username or password"
       render :new

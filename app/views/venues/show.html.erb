@@ -1,9 +1,18 @@
 <hr>
-<h1><%= link_to('Venue: <%= @venue.name %>', url: "#{@venue.website}")%></h1>
-<h2> Location: <%= @venue.location %> </h2>
+<h1><%= link_to(@venue.name, url: "#{@venue.website}")%></h1>
+<h2><%= @venue.location %> </h2>
+
+<% @events.each do |s| %>
+  
+  Date: <%= s.event_date.strftime("%b %d, %Y @ %l:%M %p ") %><br>
+  Band: <%= s.band.first.name %><br>
+
+<% end %>
+
+
 <br>
 <% if user_signed_in? %>
-  <%= link_to 'Edit Book', edit_admin_book_path(@book) %>
-  <%= link_to 'Delete Book', admin_book_path(@book), method: :delete %>
+  <%= link_to 'Edit Venue', edit_venue_path(@venue) %>
+  <%= link_to 'Delete Venue', venue_path(@venue), method: :delete %>
 <% end %>
 <hr>

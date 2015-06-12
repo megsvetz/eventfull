@@ -10,7 +10,7 @@
     <tr>
       <td><%= link_to(v.name, venue_path(v)) %></td>
       <td><%= v.name %></td>
-      <td>$ <%= v.location %></td>
+      <td><%= v.location %></td>
       
       <% if user_signed_in? %>
         <td>
