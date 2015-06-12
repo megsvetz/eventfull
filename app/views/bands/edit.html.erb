@@ -1,0 +1,9 @@
+<%= form_for(@band) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :website %>
+  <%= f.text_field :website %>
+  <%= f.label :bio %>
+  <%= f.text_area :bio %>
+  <%= f.sumbit 'Update' %>
+<% end %>
