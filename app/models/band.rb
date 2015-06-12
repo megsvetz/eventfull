@@ -1,4 +1,6 @@
 class Band < ActiveRecord::Base
-  #has_many :events
-  belongs_to :event
+
+  has_many :events
+  has_many :venues, through: :events
+
 end
