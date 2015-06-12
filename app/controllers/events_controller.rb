@@ -5,13 +5,19 @@ class EventsController < ApplicationController
   end
 
   def new
+    @bandname = []
     @event = Event.new
+    @bands = Band.select(:name).distinct
+    @bands.each do |band|
+      @bandname << band.name
+    end
+
   end
 
   def create
     @event = Event.new(event_params)
     if @event.save
-      redirect_to event_path
+      redirect_to events_path
     else
       render :new
     end

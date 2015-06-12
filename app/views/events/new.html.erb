@@ -1,6 +1,6 @@
 <%= form_for @event do |f| %>
-<%= f.label('Band') %>
-<%= f.text_field(:band_id) %>
+<%= f.label('Band: ') %>
+<%= f.select(:band_id,options_for_select(@bandname),{},) %>
 <br>
 <%= f.label('Venue') %>
 <%= f.text_field(:venue_id) %>
