@@ -1,6 +1,6 @@
 <h1 class="header">Add New Venue</h1>
 
-<%= form_for(@venue, url: venue_path) do |f| %>
+<%= form_for @venue do |f| %>
 
   <%= f.text_field :name, class: "form-control", :placeholder => "Enter Venue Name", :style => "width:50%;" %>
   <br>
