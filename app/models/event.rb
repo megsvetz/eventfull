@@ -1,6 +1,9 @@
 class Event < ActiveRecord::Base
 
-  has_one :band
-  has_one :venue
+  #has_many :bands
+  #has_many :venues
+
+  belongs_to :venue
+  belongs_to :band
 
 end
