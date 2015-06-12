@@ -1,4 +1,4 @@
-<%= @events.each do |event| %>
+<% @events.each do |event| %>
 
   Venue: <%= Venue.where(id: event.venue_id).first.name %><br>
   Band: <%= Band.where(id: event.band_id).first.name %><br>
