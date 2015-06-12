@@ -1,7 +1,7 @@
 <%= @events.each do |event| %>
 
-  Venue: <%= event.venue %><br>
-  Band: <%= event.band %><br>
-  Date: <%= event.event_date %><br>
+  Venue: <%= Venue.where(id: event.venue_id).first.name %><br>
+  Band: <%= Band.where(id: event.band_id).first.name %><br>
+  Date: <%= event.event_date.strftime("%b %d, %Y @ %H:%M ") %><br>
 
 <% end %>
