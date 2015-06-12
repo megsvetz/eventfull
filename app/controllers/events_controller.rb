@@ -5,13 +5,7 @@ class EventsController < ApplicationController
   end
 
   def new
-    @bandname = []
     @event = Event.new
-    @bands = Band.select(:name).distinct
-    @bands.each do |band|
-      @bandname << band.name
-    end
-
   end
 
   def create
