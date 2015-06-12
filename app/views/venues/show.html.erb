@@ -3,12 +3,10 @@
 <h2><%= @venue.location %> </h2>
 
 <% @events.each do |s| %>
-  
   Date: <%= s.event_date.strftime("%b %d, %Y @ %l:%M %p ") %><br>
-  Band: <%= s.band.first.name %><br>
+  Band: <%= s.band.name %><br>
 
 <% end %>
-
 
 <br>
 <% if user_signed_in? %>
