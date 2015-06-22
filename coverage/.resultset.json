@@ -1,12 +1,16 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/spec/models/band_spec.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/spec/models/band_spec.rb": [
         1,
         null,
         1,
         null,
         1,
+        2,
+        2,
+        null,
+        null,
         1,
         1,
         null,
@@ -17,7 +21,7 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/spec/rails_helper.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -71,14 +75,14 @@
         1,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/environment.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/application.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/application.rb": [
         1,
         null,
         1,
@@ -106,12 +110,12 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/boot.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/environments/test.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/environments/test.rb": [
         1,
         null,
         null,
@@ -155,7 +159,7 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/assets.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -168,7 +172,7 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/backtrace_silencers.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -177,18 +181,18 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/cookies_serializer.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/filter_parameter_logging.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/inflections.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -206,18 +210,18 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/mime_types.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/session_store.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/initializers/wrap_parameters.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -233,7 +237,7 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/config/routes.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/config/routes.rb": [
         1,
         null,
         1,
@@ -301,29 +305,17 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/app/helpers/application_helper.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/app/helpers/application_helper.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/app/models/band.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/app/models/band.rb": [
         1,
         null,
         1,
-        1,
-        null,
-        null
-      ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/spec/models/event_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/app/models/event.rb": [
         1,
         null,
         1,
@@ -331,26 +323,41 @@
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/spec/models/user_spec.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/spec/models/event_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/app/models/user.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/app/models/event.rb": [
+        1,
+        null,
         1,
         1,
+        null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/spec/models/venue_spec.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/spec/models/user_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/bradleyhintze/Desktop/dev/RailsModels/eventfull/app/models/venue.rb": [
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/app/models/user.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/spec/models/venue_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/megsvetz/megsvetz/coding/sites/eventfull/app/models/venue.rb": [
         1,
         null,
         null,
@@ -361,6 +368,6 @@
         null
       ]
     },
-    "timestamp": 1435009827
+    "timestamp": 1435011009
   }
 }
